@@ -86,7 +86,9 @@
 
 			// Create a new IntersectionObserver object
 			let observer = new IntersectionObserver(loadText, {
-				rootMargin: '150px'
+				// root: document.querySelector('#some-scrollable-elem'),
+				rootMargin: '150px',
+				// threshold: 0.25
 			});
 
 			// Get the heading elements
